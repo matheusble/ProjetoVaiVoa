@@ -1,9 +1,9 @@
 # ProjetoVaiVoa
 
 Pacotes:
-EntityFramework.
-EntityFrameworkCore.
-EntityFrameworkCore.SqlServer.
+EntityFramework, 
+EntityFrameworkCore, 
+EntityFrameworkCore.SqlServer, 
 EntityFrameworkCore.Tools.
 
 Camada Model:
