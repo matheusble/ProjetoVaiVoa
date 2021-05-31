@@ -12,10 +12,11 @@ EntityFrameworkCore.Tools.
 Contexto:
 
 Uma conexão que permite manipular o banco de dados utilizando code-first em conjunto com a camada model.
-    namespace VaiVoa.Data
-      {
-     public class cardcontext : DbContext
-     {
+
+       namespace VaiVoa.Data
+       {
+        public class cardcontext : DbContext
+       {
          public cardcontext(DbContextOptions<cardcontext> options)
              : base(options)
          {
@@ -87,9 +88,9 @@ Uma conexão que permite manipular o banco de dados utilizando code-first em con
             return CreatedAtAction(nameof(GetEmail), user);
         }
     
-    Retorna o Email e os cartões atribuidos ao usuáro, sem repetir e por ordem de data.
+   Retorna o Email e os cartões atribuidos ao usuáro, sem repetir e por ordem de data.
     
-    PostCard:
+   PostCard:
     
     [HttpPost]
     public async Task<ActionResult<Card>> PostCard(Card card)
@@ -106,9 +107,9 @@ Uma conexão que permite manipular o banco de dados utilizando code-first em con
             return CreatedAtAction(nameof(GetCard), new { id = card.Id }, card.CardNumber);
         }
     
-    Recebe o e-mail como parâmetro e gera automaticamente um número aleatório do cartão, juntamente com a data de criação.
+   Recebe o e-mail como parâmetro e gera automaticamente um número aleatório do cartão, juntamente com a data de criação.
     
-    Por fim utilizar um programa para testar APIs como por exemplo o Postman . 
+   Por fim utilizar um programa para testar APIs como por exemplo o Postman. 
 
 
 
