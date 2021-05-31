@@ -30,7 +30,8 @@ Uma conexão que permite manipular o banco de dados utilizando code-first em con
     
  Connection String:
     
-    Conexão com o banco de dados.
+  Conexão com o banco de dados.
+  
      public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
