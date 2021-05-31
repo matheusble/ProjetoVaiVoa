@@ -4,12 +4,12 @@ Objetivo:
  Criação de uma API para cartão de crédito virtual com números aleatórios, o usuário digitara o e-mail e tera como retorno o número do cartão.
 
 Pacotes:
-EntityFramework, 
-EntityFrameworkCore, 
-EntityFrameworkCore.SqlServer, 
-EntityFrameworkCore.Tools.
+ EntityFramework, 
+ EntityFrameworkCore, 
+ EntityFrameworkCore.SqlServer,
+ EntityFrameworkCore.Tools.
 
-Desenvolvimento do projeto:
+
 
 Contexto:
 
