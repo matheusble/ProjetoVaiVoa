@@ -9,6 +9,8 @@ EntityFrameworkCore,
 EntityFrameworkCore.SqlServer, 
 EntityFrameworkCore.Tools.
 
+Desenvolvimento do projeto:
+
 Contexto:
 
 Uma conexão que permite manipular o banco de dados utilizando code-first em conjunto com a camada model.
